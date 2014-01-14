@@ -23,9 +23,19 @@ More info on html5 track tag and webvtt.](http://www.html5rocks.com/en/tutorials
 ###[Captions with JWPlayer](http://www.longtailvideo.com/support/jw-player/28845/adding-video-captions/)
 
 
-##The problem is how to create the caption file. Should we address that or just assume that the caption file is already there? if not here are other options:
-* manual
-* transcriptionist
-* captioning software
+~~##The problem is how to create the caption file. Should we address that or just assume that the caption file is already there? if not here are other options:~~
+~~* manual~~
+~~* transcriptionist for a fee~~
+	~~- [CART](http://www.closed-captioning.com/general-content/captioning-services)~~
+	~~- [CaptionSync](http://www.automaticsync.com/captionsync/)~~
+~~* [captioning software](http://www.synchrimedia.com)~~
+
+##Only 1 way to go:
 * speech to text
     - I'm currently trying to use [Google's web speech api](http://commondatastorage.googleapis.com/io-2013/presentations/4057%20Web%20Speech%20API%20creates%20Interactive%20Experiences%20-%20Google%20I-O%202013%20Codelab.pdf) with video. It can actually convert to text inputs from microphone and [.wav file](https://www.youtube.com/watch?v=6Qcy2RTMnwo)
+     Other way is to get wav from video and transcribe it to speech. Issue with the speech api? it only works in chrome.
+    - [VoXforge](http://www.voxforge.org/home/downloads)
+    - [Dragon](http://www.nuance.com/dragon/index.htm)
+
+    	* taking note by the way that with speech to text software the input should be video (but if not possible we could strip the audio) but that's just the first part, after converting to text(hopefully its accurate) we need to output a .vtt file of any file as long as it indicates the time and the speech.
+    	* Still researching for other methods available though.
