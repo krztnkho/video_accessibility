@@ -39,3 +39,6 @@ More info on html5 track tag and webvtt.](http://www.html5rocks.com/en/tutorials
 
     	* taking note by the way that with speech to text software the input should be video (but if not possible we could strip the audio) but that's just the first part, after converting to text(hopefully its accurate) we need to output a .vtt file of any file as long as it indicates the time and the speech.
     	* Still researching for other methods available though.
+    - [List of Other Possibilities](http://www.ehow.com/facts_7614252_videototext-transcription-software.html)
+
+
