@@ -31,18 +31,31 @@ More info on html5 track tag and webvtt.](http://www.html5rocks.com/en/tutorials
 ~~* [captioning software](http://www.synchrimedia.com)~~
 
 ##Only 1 way to go:
-* speech to text
+
+* speech to text software : open source or proprietary software?
+
+  * open source
+    - [Google's web speech api](http://commondatastorage.googleapis.com/io-2013/presentations/4057%20Web%20Speech%20API%20creates%20Interactive%20Experiences%20-%20Google%20I-O%202013%20Codelab.pdf)
+    - [HTK](http://htk.eng.cam.ac.uk)
+    - [Julius](http://julius.sourceforge.jp/en_index.php?q=index-en.html#documentation)
+    - [Sphinx](http://cmusphinx.sourceforge.net)
+
+  *proprietary
+   - [Dragon](http://www.nuance.com/dragon/index.htm)
+
+  * Still researching for other methods available though.
+   - [List of Other Possibilities](http://www.ehow.com/facts_7614252_videototext-transcription-software.html)
+
+
     - I'm currently trying to use [Google's web speech api](http://commondatastorage.googleapis.com/io-2013/presentations/4057%20Web%20Speech%20API%20creates%20Interactive%20Experiences%20-%20Google%20I-O%202013%20Codelab.pdf) with video. It can actually convert to text inputs from microphone and [.wav file](https://www.youtube.com/watch?v=6Qcy2RTMnwo)
      Other way is to get wav from video and transcribe it. Issue with the google's web speech api? it only works in chrome and firefox.
+
    ~~ - [VoXforge](http://www.voxforge.org/home/downloads)~~
-   ~~ - [Dragon](http://www.nuance.com/dragon/index.htm)~~
-
-    	~~* taking note by the way that with speech to text software the input should be video (but if not~~ ~~possible we could strip the audio) but that's just the first part, after converting to text(hopefully~~ ~~its accurate) we need to output a .vtt file of any file as long as it indicates the time and the speech.~~
-    	~~* Still researching for other methods available though.~~
-    ~~- [List of Other Possibilities](http://www.ehow.com/facts_7614252_videototext-transcription-software.html)~~
+    ~~* taking note by the way that with speech to text software the input should be video (but if not~~ ~~possible we could strip the audio) but that's just the first part, after converting to text(hopefully~~ ~~its accurate) we need to output a .vtt file of any file as long as it indicates the time and the speech.~~
 
 
-##players we are going to use supports accessibility
+
+##players we are going to make use supports accessibility
   * [JWPlayer](http://www.longtailvideo.com/support/jw-player/28845/adding-video-captions)
   * [videojs](https://github.com/videojs/video.js/blob/master/docs/guides/tracks.md)
 
